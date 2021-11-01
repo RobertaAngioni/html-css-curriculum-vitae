@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Halloween Party</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
     <!--titolo-->
     <header>
@@ -19,40 +20,40 @@
      <h2>UNA FESTA DA PAURA</h2>
        <h3>LIVE MUSIC, DANCE COSTUM PARTY</h3>
        <hr>
-       <!--form name-->
-       <div><label for="Nome">Nome</label>
+       
+       <div><label for="nome">Nome</label>
         <br>
-         <input type="text" required>
+         <input id="nome" type="text" required placeholder="nome">
        </div>
        <br>
-       <!--form email-->
-       <div><label for="email">E-mail</label>
+       
+       <div><label for="e-mail">E-mail</label>
         <br>
-       <input type="email" required>
+       <input id="e-mail" type="email" required placeholder="e-mail">
        </div>
        <br>
-       <!--form telephone-->
+       
        <div><label for="telefono">Telefono</label>
         <br>
-       <input type="tel" required>
+       <input id="telefono" type="tel" required placeholder="telefono">
        </div>
        <br>
-       <!--ora arrivo-->
-       <div><label for="--ora">Orario di arrivo</label>
+       
+       <div><label for="time">Orario di arrivo</label>
         <br>
-       <input type="time">
+       <input id="time" type="time">
        </div>
        <br>
        <!--quanti amici porti-->
-       <div><label for="quanti amici">Quanti amici porti</label>
+       <div><label for="numero-amici">Quanti amici porti</label>
         <br>
-       <input type="number">
+       <input id="numero-amici" type="number" placeholder="numero amici">
        </div>
        <br>
        <!--come hai saputo dell'evento-->
-       <div><label for="come ci hai trovato">Come ci hai trovato</label>
+       <div><label for="come-ci-hai-trovato">Come ci hai trovato</label>
         <br>
-        <select name="scelta">
+        <select id="come-ci-hai-trovato" name="scelta">
             <option value="opt1">amici</option>
             <option value="opt2">web</option>
             <option value="opt3">altro</option>
@@ -60,7 +61,9 @@
        </div>
        <br>
        <!--bottone-->
+       <div>
        <button type="submit">Partecipa</button>
+    </div>
 
 
     

@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: darkorange;
+}
+h2 {
+    text-align: center;
+    color: orange;
+}  
+h3 {
+    text-align: center;
+    color: orange;
+}
+input {
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+button {
+    text-align: center;
+}
+body {
+    background-image: url(https://i.pinimg.com/564x/a8/a5/50/a8a550f0e4888cc8c671b52e82b07447.jpg);
+    
+    background-color:;
+}
+label {
+    color:coral
+}
