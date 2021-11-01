@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
-    color: darkorange;
+    color: orange;
+    
 }
 h2 {
     text-align: center;
@@ -26,4 +27,11 @@ body {
 }
 label {
     color:coral
+}
+hr {
+    border-color: orange;
+}
+p {
+    color: oldlace;
+    text-align: center;
 }
